@@ -21,3 +21,5 @@ Dependencies
 JQuery  
 Google Maps API  
 Geocode  
+HTML5Shiv  
+JQuery Xdom Script  
