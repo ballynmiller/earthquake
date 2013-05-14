@@ -18,6 +18,6 @@ The application is written using Javascript, and the JQuery Framework
 Dependencies
 ------------
 
-JQuery
-Google Maps API
-Geocode
+JQuery  
+Google Maps API  
+Geocode  
