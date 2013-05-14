@@ -1,0 +1,81 @@
+html, body{
+	min-width:500px;
+	overflow:hidden;
+}
+.center{
+	margin:auto;
+}
+.column{
+	padding:30px;
+	width:350px;
+}
+.column h1{
+	font-size:20px;
+	font-weight:bold;
+	text-align:center;
+}
+#error{
+	color:red;
+	position:relative;
+	top:-10px;
+	padding-left:12px;
+}
+#logo{
+	color:#51514f;
+	font-size:30px; 
+	font-weight:bold;
+	padding:20px 10px;
+}
+#map{
+	overflow:hidden;
+	width:100%;
+	position:relative;
+	top:-30px;
+}
+#map ul{
+	list-style:none;
+	display:block;
+}
+#map ul li{
+	margin: 0px 10px;
+}
+#nav{
+	/* Note: This gradient may render differently in browsers that don't support the unprefixed gradient syntax */
+
+	/* IE10 Consumer Preview */ 
+	background:#282828;
+	background-image: -ms-linear-gradient(top left, #242424 0%, #4A4F52 100%);
+
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(top left, #242424 0%, #4A4F52 100%);
+
+	/* Opera */ 
+	background-image: -o-linear-gradient(top left, #242424 0%, #4A4F52 100%);
+
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #242424), color-stop(1, #4A4F52));
+
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(top left, #242424 0%, #4A4F52 100%);
+
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: linear-gradient(to bottom right, #242424 0%, #4A4F52 100%);
+	border-bottom:1px solid #fff;
+	height:80px;
+	width:100%;
+}
+#nav input{
+	background:#51514f; 
+	border:none;
+	padding:10px;
+	width:170px;
+}
+#nav button{
+	padding:10px;
+}
+#nav table{
+	float:right;
+	position:relative; 
+	top: -50px;
+	margin-right:40px;
+}
